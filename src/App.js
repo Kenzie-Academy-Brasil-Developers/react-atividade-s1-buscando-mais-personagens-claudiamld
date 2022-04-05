@@ -28,8 +28,10 @@ function App() {
   return (
     <div>
       <Characters characterList={characterList} />
-      <button onClick={previousPage}>Página anterior</button>
-      <button onClick={nextPage}>Próxima página</button>
+      <div className='btn-div'>
+        <button onClick={previousPage} className='btn-previous'>Página anterior</button>
+        <button onClick={nextPage} className='btn-next'>Próxima página</button>
+      </div>
     </div>
   );
 }
