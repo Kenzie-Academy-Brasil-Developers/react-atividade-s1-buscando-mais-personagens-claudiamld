@@ -1,0 +1,36 @@
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #b1a7a6;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.cardBox:hover{
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+.cardBoxAlive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #06d6a0;
+    margin: 2rem 2rem;
+    padding: 1rem 0rem;
+    border-radius: 30px;
+}
+.cardBoxAlive:hover{
+    background-color: #cbdfbd;
+    cursor: pointer;
+}
+img{
+    width: 50%;
+    border-radius: 100%;
+}
+.cardTitle{
+    font-size: 22px;
+}
+.cardSpecie{
+    font-size: 20px;
+}

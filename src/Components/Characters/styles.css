@@ -1,0 +1,10 @@
+.charactersList{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.listTitle{
+    width: 100vw;
+    text-align: center;
+}
